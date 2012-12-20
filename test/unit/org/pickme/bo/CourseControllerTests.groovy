@@ -1,17 +1,17 @@
 package org.pickme.bo
 
-import grails.test.*
 
-class CourseControllerTests extends ControllerUnitTestCase {
-    protected void setUp() {
-        super.setUp()
-    }
 
-    protected void tearDown() {
-        super.tearDown()
-    }
+import grails.test.mixin.*
+import org.junit.*
+
+/**
+ * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
+ */
+@TestFor(CourseController)
+class CourseControllerTests {
 
     void testSomething() {
-
+       fail "Implement me"
     }
 }
