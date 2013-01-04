@@ -33,51 +33,52 @@ class BootStrap {
 				}}
 
 		//Courseware
-				new Course(name: "Stanford Saturday University: Eight Big Questions", location:"Stanford", faculty: fac).save( )
-				new Course(name: "How to Think Like a Psychologist", location:"Stanford", faculty: fac).save( )
-				new Course(name: "The Heart: A Stanford Mini Med School Sequel", location:"Stanford", faculty: fac).save( )
-				new Course(name: "The Contemporary American Short Story (with Michael Krasny)", location:"Stanford", faculty: fac).save( )
-				new Course(name: "The History and Geography of Current Global Events", location:"Stanford", faculty: fac).save( )
-				new Course(name: "The Past, Present, and Future of Design", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Demystifying Modern China", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Five Albums That Changed the Face of Jazz", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Surrealism in France", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Understanding the Science of Climate Change", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Creative Writing", location:"Stanford (On Campus)", faculty: fac).save( )
-				new Course(name: "Introduction to Fiction", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Writing About Your Life", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Writing the Short Story", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Novel Writing", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Food Writing for Mainstream Media and Blogs", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Creative Writing (Online) Faculty:", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Conquering the Blank Page: Approaches to Creative Writing *", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Writing Your Debut Novel *", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Magazine Writing: Being Pitch Perfect *", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Writing 2.0: On Blogs and Blogging *", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Screenwriting: The Tools Instead of Rules *", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Personal and Professional Development Faculty:", location:"Stanford", faculty: fac).save( )
-				new Course(name: "How to Start Your Business: From Idea to Business Plan", location:"Stanford", faculty: fac).save( )
-				new Course(name: "The Pharmaceutical Industry: Understanding the Unique Innovation and Business Challenges", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Marketing and Social Media Strategy", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Figuring Finance", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Ambition by Design", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Negotiation Mastery", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Project Management: An Introductory Hands-on Course", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Choosing Happiness", location:"Stanford", faculty: fac).save( )
-				new Course(name: "Creativity and Leadership", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Stanford Saturday University: Eight Big Questions", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "How to Think Like a Psychologist", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "The Heart: A Stanford Mini Med School Sequel", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "The Contemporary American Short Story (with Michael Krasny)", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "The History and Geography of Current Global Events", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "The Past, Present, and Future of Design", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Demystifying Modern China", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Five Albums That Changed the Face of Jazz", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Surrealism in France", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Understanding the Science of Climate Change", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Creative Writing", location:"Stanford (On Campus)", faculty: fac).save( )
+				new Course(capacity: 2, name: "Introduction to Fiction", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Writing About Your Life", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Writing the Short Story", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Novel Writing", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Food Writing for Mainstream Media and Blogs", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Creative Writing (Online) Faculty:", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Conquering the Blank Page: Approaches to Creative Writing *", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Writing Your Debut Novel *", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Magazine Writing: Being Pitch Perfect *", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Writing 2.0: On Blogs and Blogging *", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Screenwriting: The Tools Instead of Rules *", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Personal and Professional Development Faculty:", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "How to Start Your Business: From Idea to Business Plan", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "The Pharmaceutical Industry: Understanding the Unique Innovation and Business Challenges", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Marketing and Social Media Strategy", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Figuring Finance", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Ambition by Design", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Negotiation Mastery", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Project Management: An Introductory Hands-on Course", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Choosing Happiness", location:"Stanford", faculty: fac).save( )
+				new Course(capacity: 2, name: "Creativity and Leadership", location:"Stanford", faculty: fac).save( )
 
-				def aStudente = Student.get(1)
-				Course.list().each { aCourse -> 
-					//aCourse.addToMemberships(new Membership(student: aStudente, course: aCourse))
-					if (Membership.link(aStudente, aCourse)) {
-						println "registering:\t  ${aStudente} in ${aCourse}"
+				def aStudente = Student.get(1)			
+				if (aStudente) {
+					print "registering:\t  "
+					Course.list().each { aCourse -> 
+						//aCourse.addToMemberships(new Membership(student: aStudente, course: aCourse))
+						if (Membership.link(aStudente, aCourse)) {  print "." }
 					}
 				}
 
-		    if (Environment.getCurrent() != Environment.TEST) {
-		      println " running in ${Environment.current} mode\n\t Course count: ${Course.count()}"
-		      println " Student count: ${Student.count()}"
-		    }
+				if (Environment.getCurrent() != Environment.TEST) {
+				  println " running in ${Environment.current} mode\n\t Course count: ${Course.count()}"
+				  println " Student count: ${Student.count()}"
+				}
     }
 
     def destroy = {

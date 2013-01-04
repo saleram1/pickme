@@ -3,17 +3,20 @@ package org.pickme.bo
 class Course implements Comparable, Serializable {
 	String name
 	String location
-	String semester
-	String webSite = 'http://extension.berkeley.edu/cat/course256.html'
+	Integer courseUnits = 4
+	Integer capacity			// total number of students who can register in a given semester
+	String semester				// this needs to be an enum
+	String webSite
 	Date startDate
 	Date endDate
-	Integer courseUnits = 4
 	
 	static auditable = true
 
 	static belongsTo = [faculty: Faculty]
 
 	static constraints = {
+		capacity(min: 2, max: 400)
+		courseUnits(min: 0, max: 10)
 		endDate(nullable: true)
 		faculty(nullable: false)
 		location(nullable: false, blank: false, maxSize:30) 
