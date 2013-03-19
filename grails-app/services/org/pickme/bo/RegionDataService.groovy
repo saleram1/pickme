@@ -15,7 +15,7 @@ class RegionDataService {
 
 	def findAllCitiesInState(aState) {
 		if (states.containsKey(aState)) {
-			println ("found: ${states[aState].size()} matching ${aState}")
+			log.warn("found: ${aState}")
 			return states[aState]
 		}
 		else

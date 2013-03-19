@@ -7,6 +7,7 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'permanentAddress.label', default: 'PermanentAddress')}" />
         <title><g:message code="default.create.label" args="[entityName]" /></title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     </head>
     <body>
         <div class="nav">

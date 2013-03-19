@@ -1,6 +1,5 @@
 package org.pickme.bo
 
 class CourseController {
-    def scaffold = true
-//    def index() { }
+	def Boolean scaffold = true
 }
