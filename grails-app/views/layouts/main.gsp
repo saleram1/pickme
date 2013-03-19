@@ -18,9 +18,11 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner">
+		<div id="applicationBannerGoHome" role="banner">
+			<g:link uri="/">
 			<img src="${resource(dir: 'images', file: 'grails_logo.png')}" height="75px" width="51px" alt="Grails"/>
 						<img src="${resource(dir: 'images', file: 'bannerfans_6863934.jpg')}" height="75px" width="860px"  />
+			</g:link>
 		</div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>

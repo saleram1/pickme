@@ -105,7 +105,7 @@
     <li><g:link controller="membership" action="show" id="${m.id}">${m?.encodeAsHTML()}</g:link></li>
 </g:each>
 </ul>
-<g:link controller="membership" action="create" params="['student.id': studentInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'membership.label', default: 'Membership')])}</g:link>
+<g:link controller="membership" action="create" params="['student.id': studentInstance?.id]">Add Course to Schedule&hellip;</g:link>
 
                                 </td>
                             </tr>

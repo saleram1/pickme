@@ -42,7 +42,9 @@
                                     <label for="student"><g:message code="membership.student.label" default="Student" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: membershipInstance, field: 'student', 'errors')}">
-                                    <g:select name="student.id" from="${org.pickme.bo.Student.list()}" optionKey="id" value="${membershipInstance?.student?.id}"  />
+
+                                    <g:hiddenField name="student.id" value="${membershipInstance?.student?.id}"  />
+                                    <g:textField readonly="readonly" name="student.name" value="${membershipInstance?.student}"  />
                                 </td>
                             </tr>
                         
